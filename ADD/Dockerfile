@@ -1,4 +1,3 @@
 FROM almalinux:8
 ADD hello.txt /tmp
-ADD https://raw.githubusercontent.com/sivadevopsdaws74s/dockerfiles/master/commands.MD /tmp/C:\Users\Siva Reddy Sravani\Downloads\sample-1.tar
-ADD sample-1.tar /tmp/
+ADD https://raw.githubusercontent.com/sivadevopsdaws74s/dockerfiles/master/commands.MD /tmp
