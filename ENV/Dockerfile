@@ -1,0 +1,4 @@
+FROM almalinux:8
+ENV NAME=SIVAREDDY \
+    AGE=30 \
+    ADDRESS=HYDERABAD
