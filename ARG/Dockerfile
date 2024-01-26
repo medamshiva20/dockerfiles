@@ -1,3 +1,3 @@
 ARG version
 FROM almalinux:${version}
-RUN "echo accessing variable:${version}"
+RUN  echo "version passed by user is:${version}"
