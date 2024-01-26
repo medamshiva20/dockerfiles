@@ -3,5 +3,5 @@ FROM nginx
 RUN rm -rf /usr/share/nginx/html/index.html
 # files should be available in current directory where Dockerfile exist
 #COPY index.html /usr/share/nginx/html/index.html
-COPY qi/ /usr/share/nginx/html/ \
-  && dir1 /tmp
+COPY qi/ /usr/share/nginx/html/ 
+COPY dir1 /tmp
